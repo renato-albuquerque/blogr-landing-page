@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: none;
+    /* border: none; */
     text-decoration: none;
     list-style: none;
 }
@@ -16,8 +16,8 @@
 
     /* Primary */
 
-    --light-red: hsl(356, 100%, 66%);   /* (CTA text) */
-    --very-light-red: hsl(355, 100%, 74%);  /* (CTA hover background) */
+    --light-red-primary: hsl(356, 100%, 66%);   /* (CTA text) */
+    --very-light-red-primary: hsl(355, 100%, 74%);  /* (CTA hover background) */
     --very-dark-blue: hsl(208, 49%, 24%);   /* (headings) */
 
     /* Neutral */
@@ -31,8 +31,8 @@
 
     /* Background gradient - Intro/CTA mobile nav: */
 
-    --very-light-red: hsl(13, 100%, 72%);
-    --light-red: hsl(353, 100%, 62%);
+    --very-light-red-gradient: hsl(13, 100%, 72%);
+    --light-red-gradient: hsl(353, 100%, 62%);
 
     /* Background gradient - body: */
 
@@ -53,9 +53,10 @@ body {
 }
 
 header {
-    background-color: var(--light-red);
-    background-image: url(file/images/bg-pattern-intro-mobile.svg);
-    padding: 2rem 2.2rem 10rem;
+    background-color: var(--light-red-gradient);
+    background-image: url(./files/images/bg-pattern-intro-mobile.svg);
+    background-position: center;    
+    padding: 4rem 2.2rem 10rem;
     border-bottom-left-radius: 6rem;
 }
 
@@ -88,5 +89,45 @@ header {
     color: var(--white);
     text-align: center;
     width: 95%;
-    margin-bottom: 8rem;
+    margin-bottom: 4rem;
+}
+
+.headerButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.buttonStart {
+    background-color: var(--white);
+    color: var(--light-red-primary);
+    font-weight: bold;
+    border-radius: 2rem;
+    padding: 1rem;
+    width: 12rem;
+    text-align: center;
+}
+
+.buttonStart:hover {
+    background-color: var(--very-light-red-primary);
+    color: var(--white);
+    /* transition: ease-in-out 200ms; */
+}
+
+.buttonLearn {
+    border: 1px solid var(--white);
+    color: var(--white);
+    font-weight: bold;
+    border-radius: 2rem;
+    padding: 1rem;
+    width: 12rem;
+    text-align: center;
+}
+
+.buttonLearn:hover {
+    border: none;
+    background-color: var(--white);
+    color: var(--very-light-red-primary);
+    /* transition: ease-in-out 200ms; */
 }
