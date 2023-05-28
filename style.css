@@ -1,3 +1,6 @@
+/* font-family: 'Overpass', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
 /* CSS RESET */
 
 * {
@@ -45,6 +48,7 @@
 body {
     width: 32rem;
     font-size: 1.6rem;
+    font-family: 'Overpass', sans-serif;
     margin: 0 auto;
 }
 
@@ -83,6 +87,8 @@ header {
     color: var(--white);
     text-align: center;
     margin-bottom: 2rem;
+    font-family: 'Overpass', sans-serif;
+    font-size: 3rem;
 }
 
 .subtitleHeader {
@@ -90,6 +96,7 @@ header {
     text-align: center;
     width: 95%;
     margin-bottom: 4rem;
+    font-family: 'Overpass', sans-serif;
 }
 
 .headerButtons {
@@ -112,7 +119,7 @@ header {
 .buttonStart:hover {
     background-color: var(--very-light-red-primary);
     color: var(--white);
-    /* transition: ease-in-out 200ms; */
+    transition: ease-in-out 200ms;
 }
 
 .buttonLearn {
@@ -129,5 +136,5 @@ header {
     border: none;
     background-color: var(--white);
     color: var(--very-light-red-primary);
-    /* transition: ease-in-out 200ms; */
+    transition: ease-in-out 200ms;
 }
