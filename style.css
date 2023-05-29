@@ -46,9 +46,12 @@ font-family: 'Ubuntu', sans-serif; */
 /* MOBILE FIRST */
 
 body {
-    width: 32rem;
     font-size: 1.6rem;
     font-family: 'Overpass', sans-serif;
+}
+
+.container {
+    width: 32rem;
     margin: 0 auto;
 }
 
@@ -192,6 +195,7 @@ header {
     margin-top: 4rem;
     position: absolute;
     top: -35%;
+    left: 1rem;
 }
 
 .titleSection2 {
