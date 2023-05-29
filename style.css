@@ -52,10 +52,6 @@ body {
 
 /* HEADER */
 
-.wrapHeader {
-    background-color: var(--light-red-gradient);
-}
-
 header {
     width: 32rem;
     margin: 0 auto;
@@ -234,10 +230,6 @@ header {
 }
 
 /* FOOTER */
-
-.wrapFooter {
-    background-color: var(--very-dark-grayish-blue);
-}
 
 .footer {
     width: 32rem;
