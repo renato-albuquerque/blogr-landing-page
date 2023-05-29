@@ -67,7 +67,16 @@ header {
     display: none;
 }
 
-.wrapLogoMenuHamburguer {
+.open {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    
+    background-color: var(--white);
+    width: 30rem;
+}
+
+.wrapLogoMenuHamburger {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -78,7 +87,7 @@ header {
     width: 25%;
 }
 
-.imageMenuHamburguer {
+.imageMenuHamburger {
     cursor: pointer;
 }
 
