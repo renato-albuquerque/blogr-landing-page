@@ -52,9 +52,7 @@ body {
     margin: 0 auto;
 }
 
-.container {
-    border: 1px solid black;    /* FOR WHILE, BORDER TEST */
-}
+/* HEADER */
 
 header {
     background-color: var(--light-red-gradient);
@@ -76,7 +74,7 @@ header {
     margin-bottom: 8rem;
 }
 
-.imageLogo {
+.imageLogoHeader {
     width: 25%;
 }
 
@@ -142,7 +140,7 @@ header {
     transition: ease-in-out 200ms;
 }
 
-/* SECTION 1 */
+/* MAIN, SECTION 1 */
 
 .titleSection1 {
     font-size: 2.2rem;
@@ -172,7 +170,7 @@ header {
     padding: 2rem;
 }
 
-/* SECTION 2 */
+/* MAIN, SECTION 2 */
 
 .section-2 {
     background-color: var(--very-dark-gray-blue);
@@ -209,7 +207,7 @@ header {
     padding: 2rem;
 }
 
-/* SECTION 3 */
+/* MAIN, SECTION 3 */
 
 .titleSection3 {
     font-size: 2.2rem;
@@ -223,4 +221,58 @@ header {
     margin: 0 auto;
     margin-bottom: 3rem;
     margin-top: 20rem;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: var(--very-dark-black-blue);
+    border-top-right-radius: 6rem;
+    padding: 6rem;
+}
+
+.imageLogoFooter {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.wrapItems {
+    margin-bottom: 4rem;
+}
+
+footer .footerTitle {
+    color: var(--white);
+    font-weight: bold;
+    text-align: center;
+    margin: 2rem 0;
+    cursor: pointer;
+}
+
+footer p {
+    color: var(--grayish-blue);
+    text-align: center;
+    margin: 0.8rem 0;
+    cursor: pointer;
+}
+
+.footerSignature {
+    margin-top: 8rem;
+    border-top: 0.5px solid var(--grayish-blue);
+}
+
+.textFooter-p {
+    color: var(--white);
+    margin-top: 1.5rem;
+}
+
+.footerSignature a {
+    color: var(--very-light-red-primary);
+}
+
+.footerSignature a:hover {
+    color: var(--light-red-primary);
+    font-weight: bold;
+    transition: ease-in-out 200ms;
 }
