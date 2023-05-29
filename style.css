@@ -50,16 +50,10 @@ body {
     font-family: 'Overpass', sans-serif;
 }
 
-.container {
-
-}
-
 /* HEADER */
 
 .wrapHeader {
     background-color: var(--light-red-gradient);
-    background-image: url(./files/images/bg-pattern-intro-mobile.svg);
-    background-position: center;    
 }
 
 header {
@@ -68,6 +62,9 @@ header {
     padding: 4rem 2.2rem 10rem;
     border-bottom-left-radius: 6rem;
     margin-bottom: 8rem;
+    background-color: var(--light-red-gradient);
+    background-image: url(./files/images/bg-pattern-intro-mobile.svg);
+    background-position: center;    
 }
 
 .menuDropdownMobile {
@@ -239,7 +236,7 @@ header {
 /* FOOTER */
 
 .wrapFooter {
-    background-color: var(--very-dark-black-blue);
+    background-color: var(--very-dark-grayish-blue);
 }
 
 .footer {
@@ -247,6 +244,7 @@ header {
     margin: 0 auto;
     border-top-right-radius: 6rem;
     padding: 6rem;
+    background-color: var(--very-dark-black-blue);
 }
 
 .imageLogoFooter {
