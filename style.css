@@ -51,16 +51,20 @@ body {
 }
 
 .container {
-    width: 32rem;
-    margin: 0 auto;
+
 }
 
 /* HEADER */
 
-header {
+.wrapHeader {
     background-color: var(--light-red-gradient);
     background-image: url(./files/images/bg-pattern-intro-mobile.svg);
     background-position: center;    
+}
+
+header {
+    width: 32rem;
+    margin: 0 auto;
     padding: 4rem 2.2rem 10rem;
     border-bottom-left-radius: 6rem;
     margin-bottom: 8rem;
@@ -144,6 +148,11 @@ header {
 }
 
 /* MAIN, SECTION 1 */
+
+.main {
+    width: 32rem;
+    margin: 0 auto;
+}
 
 .titleSection1 {
     font-size: 2.2rem;
@@ -229,8 +238,13 @@ header {
 
 /* FOOTER */
 
-.footer {
+.wrapFooter {
     background-color: var(--very-dark-black-blue);
+}
+
+.footer {
+    width: 32rem;
+    margin: 0 auto;
     border-top-right-radius: 6rem;
     padding: 6rem;
 }
