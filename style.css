@@ -89,7 +89,7 @@ header {
     margin-bottom: 1rem;
 }
 
-.open {
+.open { /* To open all menu box (itm and subitem). */
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -100,7 +100,7 @@ header {
     border-radius: 1rem;
 }
 
-.mobileSubitemOpen {
+.mobileSubitemOpen {    /* To open only subitem box. */
     display: flex;
     flex-direction: column;
     align-items: center;
