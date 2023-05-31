@@ -48,13 +48,13 @@ font-family: 'Ubuntu', sans-serif; */
 body {
     font-size: 1.6rem;
     font-family: 'Overpass', sans-serif;
+    width: 32rem;
+    margin: 0 auto;
 }
 
 /* HEADER */
 
 header {
-    width: 32rem;
-    margin: 0 auto;
     padding: 4rem 2.2rem 10rem;
     border-bottom-left-radius: 6rem;
     margin-bottom: 8rem;
@@ -225,11 +225,6 @@ header {
 
 /* MAIN, SECTION 1 */
 
-.main {
-    width: 32rem;
-    margin: 0 auto;
-}
-
 .titleSection1 {
     font-size: 2.2rem;
     color: var(--very-dark-blue);
@@ -315,8 +310,6 @@ header {
 /* FOOTER */
 
 .footer {
-    width: 32rem;
-    margin: 0 auto;
     border-top-right-radius: 6rem;
     padding: 6rem;
     background-color: var(--very-dark-black-blue);
@@ -366,4 +359,10 @@ footer p {
     color: var(--light-red-primary);
     font-weight: bold;
     transition: ease-in-out 200ms;
+}
+
+/* DESKTOP VERSION, 1024px */
+
+@media (min-width: 1024px) {
+
 }
