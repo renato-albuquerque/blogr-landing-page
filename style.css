@@ -363,6 +363,122 @@ footer p {
 
 /* DESKTOP VERSION, 1024px */
 
-@media (min-width: 1024px) {
+.menuDropdownDesktop {
+display: none;
+}
+
+@media (min-width: 1440px) {
+    body {
+        width: 1440px;
+        margin: 0 auto;
+    }
+
+    .imageMenuHamburger {
+        display: none;
+    }
+
+    .imageLogoHeader {
+       display: none;
+    }
+
+    .menuDropdownDesktop {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+
+    .wrapLogoItems {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 6rem;
+    }
+    
+    .wrapProductCompanyConnect {
+        display: flex;
+        flex-direction: row;
+        gap: 4rem;
+    }
+
+    .desktopItem {
+        color: var(--white);
+        font-size: 2rem;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .desktopItem:hover {
+        font-weight: bold;
+        text-decoration: underline;
+        transition: all 200ms;
+    }
+
+    .desktopSubitemProduct, .desktopSubitemCompany, .desktopSubitemConnect {
+        display: none;      
+    }
+
+    .desktopLoginSignup {
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+    }
+
+    .desktopButtonLogin {
+        color: var(--white);
+        font-size: 2rem;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .desktopButtonSignup {
+        color: var(--light-red-primary);
+        font-weight: bold;
+        background-color: var(--white);
+        border-radius: 5rem;
+        padding: 1.5rem 3rem;
+    }
+
+    .desktopButtonSignup:hover {
+        color: var(--white);
+        background-color: var(--very-light-red-primary);
+        transition: all 200ms;
+    }
+    
+    .titleHeader {
+        margin-top: 10rem;
+        font-size: 5rem;
+    }
+
+    .subtitleHeader {
+        font-size: 1.8rem;
+    }
+
+    .buttonStart {
+        padding: 1.5rem 3rem;
+        width: 16rem;
+        font-size: 1.5rem;
+        border-radius: 5rem;
+    }
+    
+    .buttonLearn {
+        padding: 1.5rem 3rem;
+        width: 16rem;
+        font-size: 1.5rem;
+        border-radius: 5rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
