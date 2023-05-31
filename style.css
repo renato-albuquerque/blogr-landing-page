@@ -144,6 +144,12 @@ header {
     border-radius: 2rem;
 }
 
+.loginSignup .buttonSignup:hover {
+    color: var(--light-red-gradient);
+    background-color: var(--white);
+    border: 1px solid var(--light-red-gradient);
+}
+
 .wrapLogoMenuHamburger {
     display: flex;
     align-items: center;
