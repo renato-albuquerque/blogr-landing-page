@@ -89,7 +89,7 @@ header {
     margin-bottom: 1rem;
 }
 
-.open { /* To open all menu box (itm and subitem). */
+.open { /* To open all menu box (item and subitem). */
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -373,6 +373,10 @@ display: none;
         margin: 0 auto;
     }
 
+    .wrapLogoMenuHamburger {
+        margin-bottom: 2rem;
+    }
+
     .imageMenuHamburger {
         display: none;
     }
@@ -399,6 +403,7 @@ display: none;
         display: flex;
         flex-direction: row;
         gap: 4rem;
+        position: relative;
     }
 
     .desktopItem {
@@ -417,6 +422,56 @@ display: none;
         display: none;      
     }
 
+    .desktopSubitemProductOpen {    /* To open only subitem box. */
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        padding: 3rem 3rem;
+        background-color: var(--white);
+        border-radius: 2rem;
+        font-family: 'Ubuntu', sans-serif;
+        line-height: 3rem;
+        top: 4rem;
+    }
+
+    .desktopSubitemCompanyOpen {    /* To open only subitem box. */
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        padding: 3rem 3rem;
+        background-color: var(--white);
+        border-radius: 2rem;
+        font-family: 'Ubuntu', sans-serif;
+        line-height: 3rem;
+        top: 4rem;
+        left: 13rem;
+    }
+
+    .desktopSubitemConnectOpen {    /* To open only subitem box. */
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        padding: 3rem 3rem;
+        background-color: var(--white);
+        border-radius: 2rem;
+        font-family: 'Ubuntu', sans-serif;
+        line-height: 3rem;
+        top: 4rem;
+        left: 26rem;
+    }
+
+    .desktopSubitemText {
+        color: var(--very-dark-black-blue);
+    }
+
+    .desktopSubitemText:hover {
+        font-weight: bold;
+        transition: all 0.2s;
+    }
+
     .desktopLoginSignup {
         display: flex;
         align-items: center;
@@ -427,6 +482,12 @@ display: none;
         color: var(--white);
         font-size: 2rem;
         font-family: 'Ubuntu', sans-serif;
+    }
+
+    .desktopButtonLogin:hover {
+        font-weight: bold;
+        text-decoration: underline;
+        transition: all 0.2s;
     }
 
     .desktopButtonSignup {
