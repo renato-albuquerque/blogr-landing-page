@@ -577,6 +577,52 @@ display: none;
 
     /* FOOTER */
 
+    .wrapFooter {
+        display: flex;
+        justify-content: space-around;  
+        align-items: flex-start; 
+        margin-bottom: 5rem;
+    }
+
+    .imageLogoFooter {
+        margin-left: 0;
+        margin-right: 0;
+        width: 8%;
+    }
+
+    .wrapItems p {
+        text-align: left;
+        font-size: 2rem;
+    }
+
+    .footerSignature {
+        display: none;
+    }
+
+    .desktopFooterSignature {
+        margin: 0 auto;
+        width: 20%;
+        border-top: 0.5px solid var(--grayish-blue);
+    }
+    
+    .desktopTextFooter-p {
+        color: var(--white);
+        margin-top: 1.5rem;
+    }
+    
+    .desktopTextFooter-a {
+        color: var(--very-light-red-primary);
+    }
+    
+    .desktopTextFooter-a:hover {
+        color: var(--light-red-primary);
+        font-weight: bold;
+        transition: ease-in-out 200ms;
+    }
+    
+
+
+
 
 
 
